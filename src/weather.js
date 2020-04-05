@@ -42,11 +42,7 @@ class Weather extends React.Component {
                 .then(res => res.json())
                 .then(getWeather => {
                     if(getWeather.cod=='404'){
-<<<<<<< HEAD
                         alert("Wrong City Name!Please insert correct name");
-=======
-                        alert("Wrong City Name!");
->>>>>>> 2c85c878e7cfcab73c7a9dd76e79022767c2effb
                     }
                     else{
                         this.setState({
